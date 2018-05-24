@@ -11,9 +11,8 @@
 * `:wqa` is the same as :wq but for all open files.
 * `:tabe <filename>` opens <filename> in a new "tab".
 * `gt` switches tabs in a left-to-right order by using in esc mode.
-* `:vsp <filename>` opens a new file in the same tab by having a vertical split down the middle. This is useful for .cpp file .h file pairs. To switch between these files, in esc mode, use alt + arrow key (depending on which way you want to go). *Example:*
-\<img src=":vsp_example.png" width="500"\>
-* `:sm is a text editor that can be slightly hard to learn but has many useful shortcuts and is integrated with Terminal.
+* `:vsp <filename>` opens a new file in the same tab by having a vertical split down the middle. This is useful for .cpp file .h file pairs. To switch between these files, in esc mode, use alt + arrow key (depending on which way you want to go). *Example:* ![vsp example]({{ "/assets/images/vsp_example.png" | absolute_url }})
+* `:sp <filename>` is the same as :vsp but splits the screen horizontally. *Example:* ![sp example]({{ "/assets/images/sp_example.png" | absolute_url }}) (It looks so much worse, don't use it).
 
 ## Text Editing
 * `i` goes into insert mode, where you can insert text.
@@ -32,9 +31,7 @@
 * `v` goes into visual mode, highlighting characters, preparing them for other commands. **NOTE**: The highlighter starts from the character the cursor's on and is unidirectional. **NOTE**: The character the cursor is on counts as highlighted.
 * `d` deletes the highlighted characters.
 * `y` copies the highlighted characters, alowing them to be pasted elsewhere (including other files).
-* `esc` switches from insert/visual mode to normal mode.p <filename>` is the same as :vsp but splits the screen horizontally. *Example:*
-\<img src=":sp_example.png" width="550"\>
-(It looks so much worse, don't use it).
+* `esc` switches from insert/visual mode to normal mode.
 
 ## Cursor Commands
 * `Shift-g` goes to test bottom of the file.

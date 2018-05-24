@@ -7,7 +7,7 @@
 On macs, python should come preinstalled. Otherwise, click [here](https://www.python.org/). The click `Downloads` and find the latest version of python 2.
 
 ## Git
-Git is a *version control system* (vcs) that allows you to save your code to [github](https://github.com/) and collaborate on projects. It's very nice. There will be a [lesson on git and github](https://nathansolomon1678.github.io/programmer-training/general/lessons/git) later, but for now just [install it](https://git-scm.com/downloads). On a mac, git will automatically install itself when you try to use it.
+Git is a *version control system* (vcs) that allows you to save your code to [github](https://github.com/) and collaborate on projects. It's very nice. There will be a [lesson on git and github]({{ "/general/lessons/git" | absolute_url }}) later, but for now just [install it](https://git-scm.com/downloads). On a mac, git will automatically install itself when you try to use it.
 
 ## Command prompt/terminal
 **Windows:** Run *Git Bash* from the start menu. Consider getting Linux.

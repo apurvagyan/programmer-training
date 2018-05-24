@@ -73,7 +73,7 @@ The robot class should also have methods to:
  * pick up a cube
  * score a cube
 
-<img src="https://nathansolomon1678.github.io/programmer-training/general/assignments/robot.png" width="500">
+![Robot with elevator]({{ "/assets/images/robot.png" | absolute_url }})
 
 **Rules:** The robot starts at position 0 with no cubes and the arm 0 meters off the ground.
 
