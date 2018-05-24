@@ -40,7 +40,7 @@ Make a program that takes user input and adds it to a list until the user inputs
 
 Make a list. It can be any length and have anything in it. Now, make a new list that is the same but reversed!
 
-**Extra Challenge:** Solve the first three problems from [project Euler](https://projecteuler.net/archives). Technically, people aren’t supposed to post solutions, but they do so anyways - [Google](https://www.google.com/) can always help.
+**Extra Challenge:** Solve the first three problems from [Project Euler](https://projecteuler.net/archives). Technically, people aren’t supposed to post solutions, but they do so anyways - [Google](https://www.google.com/) can always help.
 
 ### The Software Engineering Process
 We have a list of patients with values of their weight and height. This program is supposed to return the BMI (Body Mass Index) for with patient in a loop. However, something is not quite right. Time to debug!
