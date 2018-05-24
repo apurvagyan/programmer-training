@@ -1,14 +1,14 @@
-##Variables  
+##Variables
 A **variable** is a name that refers to a certain value.
-In the example below you can see that when you enter ```x = 5``` that value (5) is stored into the variable x.  
-When you input the command ```print x``` you will get 5
+In the example below you can see that when you enter `x = 5`, that value (`5`) is stored in the variable x.
+When you input the command `print x`, it will print the value of `x`, which is `5`.
 
 
     >>> x = 5
     >>> print x
     5
 
-Note: you can change the value of a variable after you create it:
+You can change the value of a variable after you create it:
 
 ```
 >>> x = 5
@@ -16,9 +16,11 @@ Note: you can change the value of a variable after you create it:
 >>> print x
 6
 ```
-The value of 5 will be stored in variable x until ````x=6``` _overwrites_ the first value making x equal to 6  
 
-___
+The value `5` will be stored in variable `x` until `x = 6` _overwrites_ the first value making `x` equal to `6`.
+
+---
+
 Variables can refer to different kinds of values:
 
 ```
@@ -45,39 +47,40 @@ You can even assign a variable to be equal to the result of an arithmetic expres
 ```
 
 ---
-###Making Your Programs Interactive  
-  
-So far, your programs have not been able to take any input from the user. However, getting parameters from the user and operating on them is a key part of programming.  
-  
-####Getting Input from the User  
-  
-To get text input from the user, use the ```raw_input()``` function.  
-The example below takes the input and stores it in the variable name:  
+###Making Your Programs Interactive
 
-```name = raw_input()```  
+So far, your programs have not been able to take any input from the user. However, getting parameters from the user and operating on them is a key part of programming.
 
-You can also put some text between the parentheses of the function for a prompt to ask the user:    
-```name = raw_input(“What is your name?”)```  
-  
-_Example:_ 
- 
+####Getting Input from the User
+
+To get text input from the user, use the `raw_input()` function.
+The example below takes the input and stores it in the variable name:
+
+`name = raw_input()`
+
+You can also put some text between the parentheses of the function for a prompt to ask the user:
+`name = raw_input(“What is your name?”)`
+
+**Example:**
+
     >>> name = raw_input()
+
 The program will pause here to allow you to type in a value.
 
-    Kyle     
-This is something that the user types in
+    Kyle
+
+(This is something that the user types in)
 
     >>> print name
     Kyle
     >>> x = raw_input(“Enter a number:”)
-    Enter a number: 5 
- Be careful — x will be a string!
- 
+    Enter a number: 5
+
+Be careful — x will be a string! This problem has to do with value types, which is what the [next lesson]({{ "/general/lessons/types" | absolute_url }}) is about.
+
     >>> print x * 3
     555
     >>> print int(x) * 3
     15
-  
- That's it! You just learned the fundamentals of **variables**. You may now celebrate... Or take the [quiz] first.
- 
-[quiz]: (https://nathansolomon1678.github.io/programmer-training/general/quizzes/variables)
+
+That's it! You just learned the fundamentals of **variables**. You are now a REAL programmer.

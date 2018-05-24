@@ -14,12 +14,14 @@
 * Use `cd` and `ls` to navigate to the directory your file is in.
 * Type `python <name of your program>.py`. Press `enter`. Observe the following demo:
 
-    cd ~/robotics/training
-    $ ls
-    test.py
-    $ python test.py
-    test: It works!
-    It works!
+```
+cd ~/robotics/training
+$ ls
+test.py
+$ python test.py
+test: It works!
+It works!
+```
 
 Try printing these arithmetic calculations and see what happens!
 
